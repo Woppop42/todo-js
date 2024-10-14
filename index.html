@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODOLIST</title>
+</head>
+<body>
+    <h1>TODO LIST</h1>
+    <section>
+        <h2>Liste des tâches</h2>
+        <form id="listForm", type="submit">
+
+            <li id="list">
+                
+            </li>
+            <button id="taskDelete">Supprimer</button>
+            <p id="deleteMessage"></p>
+        </form>
+    </section>
+    <section>
+        <h2>Ajouter une tâche</h2>
+        <form type="submit" id="taskForm">
+            <label for="nom">
+            </label>
+                <input type="text" id="inputName">
+            <label for="prio">
+            </label>
+                <select id="select-urgence">
+                <option value="1">Urgent</option>
+                <option value="2">Moyen</option>
+                <option value="3">Faible</option>
+                </select>
+            <button type="submit">Ajouter</button>
+        </form>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
